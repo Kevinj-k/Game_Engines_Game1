@@ -18,6 +18,19 @@ The goblin is the player. He has an animation set for moving left,right,up, and 
 The slash is just that: a slash that displays depending on the direction of the goblin model. Its born on a timer; it stays for a few frames and then disappears until the player presses space again. It can collide with villagers to kill them and give the player points.
 
 Villager sprite walks from left to right, granted he floats, but moves left to right. When he gets hit by the slash he resets and gives the player a point.
+
+
+GUI elements consist of a timer and score which the score goes up by 100 for every villager you slash, and the timer goes down and when it reaches 0 the game ends. I did want to add a main menu with instructions, but did not get to it.
+
+
+MILESTONES:
+
+Get the goblin on screen, moving, with a backdrop, and animations
+A slash sprite and it following the goblin
+Villager sprites moving around the screen
+Slash collides with the villagers
+Timer,Score, and end screen
+(didnt do this through commits, sorry but I did it exactly like this)
      
 
 
